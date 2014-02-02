@@ -58,6 +58,9 @@ a {
             @include scut-list-unstyled;
             li {
                 margin: .5em 0;
+                &:hover {
+                    font-weight: bold;
+                }
             }
         }
         h1 {
@@ -83,6 +86,7 @@ footer {
             cursor: pointer;
             &:hover {
                 opacity: 1;
+
             }
         }
     }
