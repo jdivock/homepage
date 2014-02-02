@@ -22,8 +22,9 @@ body, html, article {
 nav {
     display: table;
     color: #FFF;
-    left: 10%;
+    left: 0%;
     top: 0%;
+    padding-left: 2em;
     position: fixed;
     height: 100%;
     font-size: 1.5em;
@@ -50,8 +51,8 @@ a {
     position: absolute;
     top: 500px;
     right: 0;
-    width: 60%;
-    padding: 0 1em;
+    width: 70%;
+    padding: 0 2em;
     .content {
         ul {
             @include scut-list-unstyled;
