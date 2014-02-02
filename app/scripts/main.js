@@ -11,15 +11,20 @@
         });
 
         window.onload = function() {
-            $('section').height($(window).innerHeight() * 2);
-            s.refresh();
+            setSize(s);
         };
 
         $(window).resize(function() {
-            $('section').height($(window).innerHeight() * 2);
-            s.refresh();
+            setSize(s);
         });
     });
+
+    function setSize(s) {
+        $('section').height($(window).innerHeight() * 2);
+        $('section').first().height($(window).innerHeight());
+        $('section').last().height($(window).innerHeight());
+        s.refresh();
+    }
 
 
 })();
