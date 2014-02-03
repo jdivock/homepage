@@ -1,5 +1,5 @@
-{
-  "name": "homepage",
+{ 
+  "name": "homepage ",
   "private": true,
   "dependencies": {
     "modernizr": "~2.6.2",
