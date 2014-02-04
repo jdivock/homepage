@@ -23,7 +23,7 @@
         $('section').height($(window).innerHeight() * 2);
         $('section').first().height($(window).innerHeight());
         $('section').last().height($(window).innerHeight());
-        $('section#photos').height($(window).innerHeight() * 4);
+        $('section#photos').height($(window).innerHeight() * 7);
         s.refresh();
     }
 
