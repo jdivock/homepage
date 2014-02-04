@@ -47,7 +47,7 @@
             <li data-anchor-target="#blag" 
                 data-center-top="font-weight: normal;" 
                 data-10-top="font-weight: bold;" 
-                data-bottom-bottom="font-weight: normal;">
+               >
                 <a href="#blag">Blog</a>
             </li>
         </ul>
@@ -67,7 +67,6 @@
                 data-anchor-target="#projects" 
                 data-center-top="position: absolute; top: !25%; opacity: 0;" 
                 data-top="position: fixed; top:!50%; opacity: 1;" 
-
                 data-bottom-bottom="position: absolute; top: !75%;">
                 <div class="content">
                     <ul>
@@ -84,12 +83,28 @@
         <section id="photos">
             <div class="container" 
                 data-anchor-target="#photos" 
-                data-center-top="position: absolute; top: !25%; opacity: 0;" 
+                data-center-top="position: absolute; top: !15%; opacity: 0;" 
                 data-top="position: fixed; top:!50%; opacity: 1;" 
                 data-bottom-bottom="position: absolute; top: !75%;">
                 <div class="content">
-                    <p>Herp derp, some kind of fancy animated parallax slideshow thingamajig here</p>
-
+                    <img src="images/slide1.jpg"
+                        data-anchor-target="#photos"
+                        
+                        data--75p-top="-webkit-transform: translate(27%,-50%) rotate(15deg);"
+                        data-bottom-bottom="-webkit-transform: translate(170%,-50%) rotate(-200deg);"
+                    />
+                    <img src="images/slide2.jpg"
+                        data-anchor-target="#photos"
+                        
+                        data--150p-top="-webkit-transform: translate(27%,-50%) rotate(45deg);"
+                        data-bottom-bottom="-webkit-transform: translate(170%,-50%) rotate(290deg);"
+                    />
+                    <img src="images/slide3.jpg"
+                        data-anchor-target="#photos"
+                        
+                        data--225p-top="-webkit-transform: translate(27%,-50%) rotate(75deg);"
+                        data-bottom-bottom="-webkit-transform: translate(170%,-50%) rotate(300deg);"
+                    />
                 </div>
             </div>
         </section>
@@ -108,7 +123,12 @@
     </article>
 
 
-    <footer>
+    <footer
+        data-anchor-target="#home"
+        data-top="position:fixed; bottom: 35%;right: 70%; font-size: 2.2em;"
+        data-top-bottom="position:fixed; bottom:5%; right:15%; font-size: 1.2em;"
+
+    >
         <ul>
             <li><a href="https://github.com/jdivock" target="_blank"><i class="icon-github"></i></a>
             </li>
