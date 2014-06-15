@@ -1,4 +1,3 @@
-<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -15,6 +14,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -23,118 +23,17 @@
 
 <body>
 
-    <nav>
-        <ul>
-            <li 
-                data-anchor-target="#home" 
-                data-10-top="font-weight: bold;" 
-                data-bottom-bottom="font-weight: normal;">
-                <a href="#home">Home</a>
-            </li>
-            <li data-anchor-target="#projects" 
-                data-10-top="font-weight: bold;"
-                data-bottom-top="font-weight: normal;"
-                data-bottom="font-weight: normal;"
-                >
-                <a href="#projects">Side Projects</a>
-            </li>
-            <li data-anchor-target="#photos" 
-                data-center-top="font-weight: normal;" 
-                data-10-top="font-weight: bold;" 
-                data-bottom-bottom="font-weight: normal;">
-                <a href="#photos">Photography</a>
-            </li>
-            <li data-anchor-target="#blag" 
-                data-center-top="font-weight: normal;" 
-                data-10-top="font-weight: bold;" 
-               >
-                <a href="#blag">Blog</a>
-            </li>
-        </ul>
-    </nav>
-
     <article>
 
-        <section id='home'>
-            <div class="container" data-anchor-target="#home" data-top-top="position: fixed; top:!50%;" data-bottom-bottom="position: absolute; top: !50%; ">
-                <div class="content">
-                    <p>Web dev at Huge, powerlifting, chugging espresso, and eating BBQ until I feel bad about myself</p>
-                </div>
-            </div>
-        </section>
-        <section id='projects'>
-            <div class="container" 
-                data-anchor-target="#projects" 
-                data-center-top="position: absolute; top: !25%; opacity: 0;" 
-                data-top="position: fixed; top:!50%; opacity: 1;" 
-                data-bottom-bottom="position: absolute; top: !75%;">
-                <div class="content">
-                    <ul>
-                        <li><a href="/BieberTweets" target="_blank">Bieber Tweets</a>
-                        </li>
-                        <li><a href="/DictionaryLookup" target="_blank">Redis/SocketIO dictionary lookup</a>
-                        </li>
-                        <!-- <li><a href="/MultiPost" target="_blank">MultiPost</a>
-                        </li> -->
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="photos">
-            <div class="container" 
-                data-anchor-target="#photos" 
-                data-center-top="position: absolute; top: !15%; opacity: 0;" 
-                data-top="position: fixed; top:!50%; opacity: 1;" 
-                data-bottom-bottom="position: absolute; top: !75%;">
-                <div class="content">
-                    <img src="images/slide1.jpg"
-                        data-anchor-target="#photos"
-                        data--5p-top="-webkit-transform: translate(27%,-50%) rotate(15deg); transform: translate(27%,-50%) rotate(15deg);"
-                        data-200p-bottom-bottom="-webkit-transform: translate(170%,-50%) rotate(-200deg); transform: translate(170%,-50%) rotate(-200deg);"
-                    />
-                    <img src="images/slide2.jpg"
-                        data-anchor-target="#photos"
-                        data--75p-top="-webkit-transform: translate(27%,-50%) rotate(45deg);transform: translate(27%,-50%) rotate(45deg);"
-                        data-125p-bottom-bottom="-webkit-transform: translate(170%,-50%) rotate(290deg);transform: translate(170%,-50%) rotate(290deg);"
-                    />
-                    <img src="images/slide3.jpg"
-                        data-anchor-target="#photos"
-                        data--150p-top="-webkit-transform: translate(27%,-50%) rotate(75deg);transform: translate(27%,-50%) rotate(75deg);"
-                        data-55p-bottom-bottom="-webkit-transform: translate(170%,-50%) rotate(300deg);transform: translate(170%,-50%) rotate(300deg);"
-                    />
-                </div>
-            </div>
-        </section>
-        <section id="blag">
-            <div class="container" 
-                data-anchor-target="#blag" 
-                data-center-top="position: absolute; top: !50%; opacity: 0;" 
-                data-top="position: fixed; top:!50%; opacity: 1;" 
-                data-bottom-bottom="position: absolute; top: !50%;">
-                <div class="content">
-                    <p>Just kidding I don't have anything to write</p>
-                </div>
-            </div>
-        </section>
+        <h1>Jason <i class="fa fa-circle-o-notch"></i> Divock</h1>
+
+        <ul>
+            <li><a href="https://github.com/jdivock">Code.</a></li>
+            <li><a href="http://ape-shit-fuck-jacked.tumblr.com/">Lift.</a></li>
+            <li><a href="https://twitter.com/jdivock">Tweet.</a></li>
+        </ul>
 
     </article>
-
-
-    <footer
-        data-anchor-target="#home"
-        data-top="position:fixed; bottom: 40%;right: 70%; font-size: 2.2em;"
-        data-top-bottom="position:fixed; bottom:5%; right:15%; font-size: 1.2em;"
-
-    >
-        <ul>
-            <li><a href="https://github.com/jdivock" target="_blank"><i class="icon-github"></i></a>
-            </li>
-            <li><a href="https://twitter.com/jdivock" target="_blank"><i class="icon-twitter"></i></a>
-            </li>
-            <li><a href="http://www.flickr.com/photos/8978912@N07/" target="_blank"><i class="icon-flickr"></i></a>
-            </li>
-        </ul>
-    </footer>
 
 
     <script>
