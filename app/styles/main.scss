@@ -1,9 +1,6 @@
 
-$fa-font-path: '../bower_components/font-awesome/fonts';
-
-@import "../bower_components/font-awesome/scss/font-awesome";
 @import "../bower_components/scut/dist/scut";
-@import "_fonts";
+@import "fonts";
 
 @include scut-reset;
 
@@ -52,5 +49,16 @@ ul {
     @include scut-list-inline(10%);
     > li {
         font-size: 1.5em;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    h1 {
+        padding: 0 25%;
+        i {
+            height: .5em;
+        }
     }
 }
