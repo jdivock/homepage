@@ -5,7 +5,6 @@
     "modernizr": "~2.6.2",
     "jquery": "~1.10.2",
     "scut": "~0.9.0",
-    "skrollr": "~0.6.21",
     "font-awesome": "~4.1.0"
   },
   "devDependencies": {}
